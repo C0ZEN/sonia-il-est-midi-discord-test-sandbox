@@ -10,6 +10,7 @@
   "main": "./index.ts",
   "scripts": {
     "start": "ts-node-dev --respawn --transpileOnly .",
+    "test": "jest",
     "test:watch": "jest --watchAll",
     "test:majestic": "majestic --port 3002 --noOpen"
   },

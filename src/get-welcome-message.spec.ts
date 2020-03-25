@@ -1,4 +1,4 @@
-import { getWelcomeMessage } from "./get-welcome-message";
+import { getWelcomeMessage } from './get-welcome-message';
 
 describe(`getWelcomeMessage()`, (): void => {
   let username: string;

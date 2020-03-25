@@ -32,7 +32,11 @@ module.exports = {
   // ],
 
   // A list of reporter names that Jest uses when writing coverage reports
-  coverageReporters: [`json`, `text-summary`, `lcov`],
+  coverageReporters: [
+    `json`,
+    `text-summary`,
+    `lcov`
+  ],
 
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: undefined,
@@ -66,7 +70,7 @@ module.exports = {
   maxConcurrency: 5,
 
   // An array of directory names to be searched recursively up from the requiring module's location
-  moduleDirectories: [`./node_modules`],
+  moduleDirectories: [ `./node_modules` ],
 
   // A map from regular expressions to module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
@@ -75,7 +79,12 @@ module.exports = {
   // modulePathIgnorePatterns: [],
 
   // An array of file extensions your modules use
-  moduleFileExtensions: [`js`, `json`, `ts`, `node`],
+  moduleFileExtensions: [
+    `js`,
+    `json`,
+    `ts`,
+    `node`
+  ],
 
   // Activates notifications for test results
   notify: true,
@@ -120,7 +129,9 @@ module.exports = {
   // snapshotSerializers: [],
 
   // A list of paths to directories that Jest should use to search for files in
-  roots: [`./src`, `./scripts`],
+  roots: [
+    `./src`
+  ],
 
   // The test environment that will be used for testing
   testEnvironment: `node`,
