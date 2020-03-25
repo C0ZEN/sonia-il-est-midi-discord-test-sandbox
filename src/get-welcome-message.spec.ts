@@ -15,7 +15,7 @@ describe(`getWelcomeMessage()`, (): void => {
 
       const result = getWelcomeMessage(username);
 
-      expect(result).toEqual(`yolo C0ZEN`);
+      expect(result).toStrictEqual(`yolo C0ZEN`);
     });
   });
 });

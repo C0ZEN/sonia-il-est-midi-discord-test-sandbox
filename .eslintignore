@@ -1,0 +1,6 @@
+node_modules
+dist
+coverage
+.github
+.cache
+.cache-jest
